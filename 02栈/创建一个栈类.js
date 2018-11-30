@@ -4,7 +4,7 @@
  * @author: yangguoqiang;
  * @Date: 2018-10-21 12:05:07
  * @LastEditors: yangguoqiang
- * @LastEditTime: 2018-11-30 22:50:32
+ * @LastEditTime: 2018-11-30 22:51:24
  * @Description: 
  */
 
@@ -62,6 +62,5 @@ function dec2bin(decNum){
     }
     return binayriString
 }
-
 
 console.log(dec2bin(10));  // 1010

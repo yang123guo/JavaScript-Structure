@@ -4,7 +4,7 @@
  * @author: yangguoqiang
  * @Date: 2018-10-21 12:09:54
  * @LastEditors: yangguoqiang
- * @LastEditTime: 2018-10-21 12:09:54
+ * @LastEditTime: 2018-11-30 22:51:47
  * @Description: 
  */
 
@@ -16,10 +16,12 @@
 * 使用字典的方式: {"age" : 18, "name" : "Coderwhy", "height": 1.88}. 可以通过key取出value
 * */
 //创建字典类
+
 function Dictionay(){
     this.items = {};
 }
-Dictionay.prototype={
+
+Dictionay.prototype = {
     has:function(key){
         return this.items.hasOwnProperty(key)
     },
