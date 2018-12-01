@@ -3,8 +3,8 @@
  * @version: 1.0.0
  * @author: yangguoqiang;
  * @Date: 2018-10-21 12:05:29
- * @LastEditors: yangguoqiang;
- * @LastEditTime: 2018-10-21 12:05:29
+ * @LastEditors: yangguoqiang
+ * @LastEditTime: 2018-12-01 23:55:36
  * @Description: 
  */
 
@@ -24,23 +24,23 @@ function Queue(){
     this.items = [];
 }
 Queue.prototype = {
-    //进队
+    // 进队
     enqueue:function (item) {
         this.items.push(item);
     },
-    //出队
+    // 出队
     dequeue:function(){
         return this.items.shift();
     },
-    //查看将要出队的元素
+    // 查看将要出队的元素
     front:function () {
         return this.items[0]
     },
-    //查看队列是否为空
+    // 查看队列是否为空
     isEmpty:function(){
         return this.items.length === 0
     },
-    //查看队列中元素个数
+    // 查看队列中元素个数
     size:function(){
         return this.items.length;
     }
